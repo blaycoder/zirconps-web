@@ -6182,8 +6182,8 @@ Page Title Area Style
 .page-title-area {
   position: relative;
   z-index: 1;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   background-image: -webkit-gradient(linear, right top, left top, from(#ff0000), to(#000000));
   background-image: linear-gradient(to left, #ff0000 0%, #000000 100%);
   text-align: center;
