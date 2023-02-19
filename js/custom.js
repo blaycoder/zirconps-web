@@ -415,3 +415,106 @@
 		});  
 	});
 })(jQuery);
+
+
+// Articles
+	
+	const blogArticles = [
+		{
+			id: 1,
+			title: "A Beginner's Guide to JavaScript",
+			author: "John Doe",
+			date: "2022-01-01",
+	  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut imperdiet tellus. In hac habitasse platea dictumst."
+	},
+	{
+	  id: 2,
+	  title: "10 Tips for Better Productivity",
+	  author: "Jane Smith",
+	  date: "2022-02-01",
+	  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut imperdiet tellus. In hac habitasse platea dictumst."
+	},
+	{
+	  id: 3,
+	  title: "The Benefits of Meditation",
+	  author: "John Doe",
+	  date: "2022-03-01",
+	  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut imperdiet tellus. In hac habitasse platea dictumst."
+	},
+	{
+		id: 4,
+		title: "How to Cook the Perfect Steak",
+		author: "Jane Smith",
+		date: "2022-04-01",
+		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut imperdiet tellus. In hac habitasse platea dictumst."
+	},
+	// more articles...
+];
+
+
+// function renderResults(results) {
+//   // Clear previous search results
+//   resultsContainer.innerHTML = '';
+
+//   // Render each search result as a link
+//   results.forEach((result) => {	
+//     const link = document.createElement('a');
+//     link.classList.add('result');
+//     link.href = `/articles/${result.id}`;
+//     link.innerHTML = `${result.title} <br> ${result.content.slice(0, 250)}...<br> Author: ${result.author} <br> Read More `;
+//     resultsContainer.appendChild(link);
+//   });
+
+//   // Show message if no search results found
+//   if (results.length === 0) {
+//     resultsContainer.innerHTML = '<p>No results found.</p>';
+//   }
+// }
+// // Generate search
+// const searchForm = document.querySelector('.menu-menu form');
+// const inputSearch = searchForm.querySelector('input[type="search"]');
+
+// // searchForm.addEventListener('submit', (e) => {
+// // 	e.preventDefault();
+// // 	const query = inputSearch.value.trim();
+// // 	if(query !== ''){
+// // 		window.location.href = `\index.html?q=${encodeURIComponent(query)}`;
+// // 	}
+// // })
+
+// //Generating search result
+// const resultsContainer = document.querySelector('#results');
+
+// searchForm.addEventListener('submit', (e) => {
+//   e.preventDefault();
+ 
+
+//   // Get search query from input
+//   const query = inputSearch.value.trim().toLowerCase();
+ 
+//   if (query !== '') {
+// 	window.location.href = `search-results.html?q=${query}`;
+//     // Filter articles by title or author
+//     const results = blogArticles.filter((article) => {
+//       const title = article.title.toLowerCase();
+//       const author = article.author.toLowerCase();
+//       return title.includes(query) || author.includes(query);
+//     });
+
+//     // Render search results to page
+//     renderResults(results);
+//   }
+// });
+
+// function getQueryParameter(name){
+// 	const urlParams = new URLSearchParams(window.location.search);
+// 	return urlParams.get(name)
+// }
+
+
+
+// // const query = getQueryParameter('q');
+// // const results = performSearch(query)
+// // renderResults(results);
+
+

@@ -9380,6 +9380,11 @@ Contact Area Style
   margin-bottom: -8px;
 }
 
+/* .bx {
+  margin-right: 10px;
+  font-size: 18px;
+} */
+
 /*
 FAQ Page Area Style
 =====================================================*/
@@ -9400,3 +9405,74 @@ Testimonials Area Style
   margin-bottom: 60px;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Search form*/
+
+.search-box{
+  position: relative;
+  display: inline-block;
+}
+
+.search-box .search-icon{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+}
+.search-box input[type="search"]{
+  border: none;
+  padding-left: 3rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.menu-menu input:focus{
+ outline: none;
+ border-bottom: 1px solid #4caf50;
+}
+
+
+.menu-menu i{ 
+  font-size: 17px;
+  color:  #4caf50;
+}
+
+.blog-details{
+  color: #000000;
+}
+
+.blog-content{
+  margin-top: 20px;
+}
+
+.service-details-wrap p{
+  font-size: 17px;
+}
+
+.service-details-wrap li{
+  font-size: 16px;
+}
+
+#results {
+  margin: 20px;
+  
+}
+
+.result {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}
+
+.result h2 {
+  margin-top: 0;
+}
+
+.service-list .active{
+  background-color: #177821;
+  color: #ffffff;
+}
